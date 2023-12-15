@@ -10,7 +10,11 @@ N/A
 
 ## Usage
 
-The user enters their birthday in the field(s) provided and click the Submit button. From there, the user is able to toggle and view different results about their sun symbol, element, and their horoscope. If the user opens the Dev Tools in Google Chrome, they can see the information resulting from the API call being made, from which the Results are pulled and displayed. 
+The user enters their birthday in the field(s) provided and click the Submit button. From there, the user is able to toggle and view different results about their sun symbol, element, and their horoscope. If the user opens the Dev Tools in Google Chrome, they can see the information resulting from the API call being made, from which the Results are pulled and displayed.
+
+## Credits
+
+Teaching Assistant Alexander Yu assisted throuhout the project with troubleshooting code and guidance as to how different elements of site could be approached.
 
 ## Liscence
 
