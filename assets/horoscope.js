@@ -1,6 +1,12 @@
 
 var star;
 
+//Modal Element
+//get modal
+let modal = document.getElementById("displayModal");
+//get the button that opens up modal
+let btn = document.getElementById("submitBtn");
+let span = document.getElementsByClassName("close")[0];
 
 function getApi() {
 
@@ -31,6 +37,17 @@ const options = {
     // console.log(index);
 }
 
+//Modal error message
+function modal() {
+    $("#dialog-message" ).dialog({
+      modal: true,
+      buttons: {
+        Ok: function() {
+          $( this ).dialog( "close" );
+        }
+      }
+    });
+  }
 
 
 
@@ -92,11 +109,29 @@ if( (month ==3 && 20<day < 22)||(month==4 && day<20) ){
     else if ( (month ==2 && 18 < day )||(month==3 && day<21) ){
     star=signs[11];
       
+    } 
+    else (month == "" && day == "") {
+        modal();
     }
+
+
    getApi();
-    return star;
+   return star;
 }
 
-document.getElementById('submit').
- addEventListener('click', assignSign);
+// document.getElementById('submitBtn').addEventListener('click', assignSign);
 
+// btn.onclick = function() {
+//     modal.style.display = "block";
+// }
+
+// span.onclick = function() {
+//     modal.style.display = "none";
+// }
+
+// window.onclick = function(event) {
+//    event.preventDefault();
+//     if (event.target == modal) {
+//         modal.style.displayu = "none";
+//     }
+// }
