@@ -19,6 +19,9 @@ const options = {
     })
     .then (function (data){
         console.log(data );
+        localStorage.setItem('sign', JSON.stringify(data));
+        // var horoscope = JSON.parse(localStorage.getItem('sign'));
+        // console.log(horoscope);
     })
 
     // for (let index = 0; index < array.length; index++) {
