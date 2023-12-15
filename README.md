@@ -1,10 +1,8 @@
-# ProjectHoroscope
-This is Coral updating the README.
-I'm still trying.
+# StellarScopes
 
 ## Description
 
-This app uses an API call to provide the user with information about their Zodiac sign.
+Welcome to StellarScopes! This app uses a user input birthday to make an API call to provide the user with information about their Zodiac Sun Sign among other information. Listen to what the universe has to say about your future!
 
 ## Installation
 
@@ -12,7 +10,7 @@ N/A
 
 ## Usage
 
-The user enters their birthday in the field provided. From there they are able to toggle and view different results about their sun symbol, element, and predictions about their future. 
+The user enters their birthday in the field(s) provided and click the Submit button. From there, the user is able to toggle and view different results about their sun symbol, element, and their horoscope. If the user opens the Dev Tools in Google Chrome, they can see the information resulting from the API call being made, from which the Results are pulled and displayed. 
 
 ## Liscence
 
