@@ -18,31 +18,19 @@ singDescription.textContent = horoscope.about;
 
 
 
- var horoscope2 = JSON.parse(localStorage.getItem('sign2'));
+var horoscope2 = JSON.parse(localStorage.getItem('sign2'));
+var nameTitle2 = JSON.parse(localStorage.getItem('star2'));
+
 console.log(horoscope2);
-
-
-var displaysection2 = document.getElementById('display2');
-var nameTitle2 = document.createElement('h1');
 console.log(nameTitle2);
-nameTitle2.textContent = horoscope2.name;
-displaysection2.appendChild(nameTitle2);
-var aboutSection2 =  document.getElementById ('sign2');
-var singDescription2 = document.createElement('p');
-singDescription2.textContent = horoscope2.about;
- aboutSection2.appendChild(singDescription2); 
+
+// add the name of the sign to the page
+var displaysection2 = document.getElementById('display2');
+$(displaysection2).append(nameTitle2);
 
 
 
 
-// // career
-// data[0].career
-// // love
-// data[0].love
-// // lucky number
-// data[0].lucky_number
-// // lucky color
-// data[0].lucky_color
 
 
 
