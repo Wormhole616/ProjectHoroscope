@@ -20,15 +20,10 @@ const options = {
     .then (function (data){
         console.log(data );
         localStorage.setItem('sign', JSON.stringify(data));
-        // var horoscope = JSON.parse(localStorage.getItem('sign'));
-        // console.log(horoscope);
+       location.assign('display.html');
     })
 
-    // for (let index = 0; index < array.length; index++) {
-    //     const element = array[index];
-        
-    // }
-    // console.log(index);
+   
 }
 
 
@@ -93,10 +88,14 @@ if( (month ==3 && 20<day < 22)||(month==4 && day<20) ){
     star=signs[11];
       
     }
+
    getApi();
+
     return star;
 }
 
 document.getElementById('submit').
- addEventListener('click', assignSign);
+addEventListener('click', assignSign)
+
+
 
