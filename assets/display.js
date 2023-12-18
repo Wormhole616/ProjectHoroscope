@@ -18,21 +18,5 @@ singDescription.textContent = horoscope.about;
 
 
 
-var horoscope2 = JSON.parse(localStorage.getItem('sign2'));
-var nameTitle2 = JSON.parse(localStorage.getItem('star2'));
 
-console.log(horoscope2);
-console.log(nameTitle2);
-
-// add the name of the sign to the page
-var displaysection2 = document.getElementById('display2');
-$(displaysection2).append(nameTitle2);
-
-
-
-
-
-
-
- 
  
