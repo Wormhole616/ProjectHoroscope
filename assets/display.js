@@ -28,7 +28,10 @@ console.log(nameTitle2);
 var displaysection2 = document.getElementById('display2');
 $(displaysection2).append(nameTitle2);
 
-console.log(nameTitle2);
+
+
+
+
 
 
  

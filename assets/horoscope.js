@@ -111,7 +111,7 @@ function getApi2() {
         .then(function (data) {
             console.log(data);
             localStorage.setItem('sign2', JSON.stringify(data));
-                // location.assign('display.html');
+                location.assign('display.html');
         })
 
 }
