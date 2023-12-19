@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome to StellarScopes! This app uses a user input birthday to make an API call to provide the user with information about their Zodiac Sun Sign among other information. Listen to what the universe has to say about your future!
+Welcome to StellarScopes! This app uses a user input birthday to make API calls to multiple server-side API's to provide the user with information about both their Western and Chinese zodiac sign amongst other sign traits. Listen to what the universe has to say about your future!
 
 ## Installation
 
@@ -10,13 +10,18 @@ N/A
 
 ## Usage
 
-The user enters their birthday in the field(s) provided and click the Submit button. From there, the user is able to toggle and view different results about their sun symbol, element, and their horoscope. If the user opens the Dev Tools in Google Chrome, they can see the information resulting from the API call being made, from which the Results are pulled and displayed.
+The user enters their birthday in the field(s) provided and click the Submit button. From there, the user is able to toggle and view different results about their sun symbol, element, and their horoscope as well as their Chinese zodiac sign. If the user opens the Dev Tools in Google Chrome, they can see the information resulting from the API calls being made, from which the Results are pulled and displayed seamlessly.
+
+## Features
+StellarScopes features multiple server side API's which display the data tastefully using CSS Tailwind.
+
+
 
 ## Credits
 
-Teaching Assistant Alexander Yu assisted throuhout the project with troubleshooting code and guidance as to how different elements of site could be approached.
+Teaching Assistant Alexander Yu assisted throuhout the project with troubleshooting code and guidance as to how different elements of site could be approached. Our Instructor Mantas Andrijauskas also assisted with obstacles we faced when merging our code together. 
 
-## Liscence
+## License
 
 MIT Liscence
 
