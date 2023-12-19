@@ -16,6 +16,13 @@ The user enters their birthday in the field(s) provided and click the Submit but
 StellarScopes features multiple server side API's which display the data tastefully using CSS Tailwind.
 
 
+![image](https://github.com/Wormhole616/ProjectHoroscope/assets/109124878/62b190fa-1bba-4ba2-b286-186ada8447aa)
+
+
+![image](https://github.com/Wormhole616/ProjectHoroscope/assets/109124878/2f6c4ffd-7355-447e-ba7b-0c36e421ce5b)
+
+
+
 
 ## Credits
 
