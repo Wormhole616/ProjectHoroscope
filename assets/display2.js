@@ -17,6 +17,6 @@ console.log(money);
 var love = horoscope2.love;
 $(displaysection2).append('<p> Love: ' + love + '</p>');
 console.log(love);
-var luckyNumber = horoscope2.lucky-number;
+var luckyNumber = horoscope2.lucky - number;
 $(displaysection2).append('<p> Lucky Number: ' + luckyNumber + '</p>');
 console.log(luckyNumber);

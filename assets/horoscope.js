@@ -111,7 +111,7 @@ function getApi2() {
         .then(function (data) {
             console.log(data);
             localStorage.setItem('sign2', JSON.stringify(data));
-                location.assign('display2.html');
+            location.assign('display2.html');
         })
 
 }
@@ -159,7 +159,7 @@ function assignSign2(event) {
         star2 = signs2[11];
     }
 
-    
+
     localStorage.setItem('star2', JSON.stringify(star2));
     console.log(star2);
     getApi2();
