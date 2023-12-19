@@ -9,14 +9,14 @@ var nameTitle = document.createElement('h1');
 console.log(nameTitle);
 nameTitle.textContent = horoscope.name;
 displaysection.appendChild(nameTitle);
-var aboutSection =  document.getElementById ('sign');
+var aboutSection = document.getElementById('sign');
 var singDescription = document.createElement('p');
 singDescription.textContent = horoscope.about;
- aboutSection.appendChild(singDescription);
+aboutSection.appendChild(singDescription);
 
 
 
 
 
 
- 
+
