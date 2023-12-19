@@ -27,6 +27,14 @@ StellarScopes features multiple server side API's which display the data tastefu
 ## Credits
 
 Teaching Assistant Alexander Yu assisted throuhout the project with troubleshooting code and guidance as to how different elements of site could be approached. Our Instructor Mantas Andrijauskas also assisted with obstacles we faced when merging our code together. 
+We utilized two side server API's for the data displayed in our app: 
+Chinese Zodiac API
+https://rapidapi.com/ai-box-ai-box-default/api/chinese-zodiacs-ai/
+and 
+Astrology API https://www.astrologyapi.com/
+
+Our organizational tools were Kanban Flow and Google Docs and Canva.
+
 
 ## License
 
